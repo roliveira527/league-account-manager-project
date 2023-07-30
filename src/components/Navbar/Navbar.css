@@ -1,12 +1,33 @@
 .navbar {
     height: 52px;
-    width: 100%;
+    width: 100vw;
+    background-color: darkgray;
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: space-between;
+}
+
+.navbar-item {
+    display: grid;
+    width: 33%;
+}
+
+.navbar-item button {
+    margin-right: 10px;
+}
+
+.navbar-logo {
+    display: flex;
+    justify-self: start;
+    height: 48px;
 }
 
 .navbar-title {
     color: black;
-    border-bottom: 2px solid black;
+}
+
+.navbar-button {
+    display: flex;
+    justify-self: end;
+    border: 2px solid black;
 }
